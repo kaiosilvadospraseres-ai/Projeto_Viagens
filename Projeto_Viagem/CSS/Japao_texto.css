@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    border: 5px solid black;
+    background: url('img.web/templo-japao.webp');
+}
+
+.container{
+    display: flex;
+}
+
+.lado-1{
+    background-color: aliceblue;
+    width: 600px;
+    border: 2px solid black;
+
+}
+
+.lado-2{
+    background-color: red;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.lado-3{
+    background-color:aliceblue;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.subtitulo{
+    margin-left: 180px;
+}
+
