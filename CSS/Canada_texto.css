@@ -9,32 +9,65 @@ body{
 }
 
 .lado-1{
-    background-color: red;
+    
     width: 600px;
     border: 2px solid black;
 }
 
 .lado-2{
-    background-color: aliceblue;
+  
     width: 600px;
     border: 2px solid black;
 }
 
 .lado-3{
-    background-color:red;
+   
     width: 600px;
     border: 2px solid black;
 }
 
 .subtitulo{
-    margin-left: 180px;
     color: black;
+    margin-left: 130px;
+    font-size: 30px;
 }
 
 p{
-    color: aliceblue;
+    color: black;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
 }
 
 .titulo{
-    color: aliceblue;
+    color: black;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-right: 2px;
+}
+
+.link{
+    margin-top: 280px;
+    font-size: 25px;
+}
+
+.fundo::before{ 
+    background-image: url("../img.web/fundo_canada.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;   
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 171%;
+}
+
+.subtitulo2{
+    color: black;
+    margin-left: 80px;
+    font-size: 25px;
 }
