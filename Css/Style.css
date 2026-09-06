@@ -1,15 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0%;
+    background-color: aliceblue;
+}
+
+h1,h2,h3,p{
+    font-family:'Poppins', sans-serif;
 }
 
 .topo{
     display: flex;
-    justify-content: center;
     box-shadow: 0px 5px 5px gray;
     position: fixed;
-    width: 100%;
-    background-color: white;
-    
+    top: 0;
+    left: 0;
+    width: 100%;   
+    background-color: white; 
+}
+
+.titulo{
+    margin-left: 5%;
+    color: rgb(50, 50, 122);
 }
 
 .menu{
@@ -19,17 +34,129 @@ body{
     width: 40%;
     justify-content: right;
     margin-right: 5%;
+    margin-left: 35%;
+    color: rgb(50, 50, 122);
+}
+
+.card1{
+    text-align: left;
+    min-width: 25%;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top:1% ;
     
 }
 
-.container{
+.card1 h2{
+    margin-left:3% ;
+    color: rgb(50, 50, 122);
+}
+
+.card1 h3{
+    color: rgb(27, 127, 248);
+}
+
+.card2{
+    text-align: left;
+    min-width: 25%;
+    background-color: white;
+    border: 3px solid white;
+    color: rgb(50, 50, 122);
+    border-radius: 10px;
+}
+
+.card2 h1,h3,p{
+    margin-left: 3%;
+}
+
+.confira{
+    border-radius: 10%;
+    margin-left: 15%;
+    margin-top: 40%;
+    background-color: rgb(63, 186, 63);
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preço{
     display: flex;
-    justify-content: center;
-    margin-left:1% ;
-    gap: 5%;
-    margin-top: 3%;
+}
+
+.titulo{
 }
 
 .titulo2{
+   display: flex;
    text-align: center;
+   color: rgb(50, 50, 122);
+   margin-top: 6%;
+   align-items: center;
+   gap: 2%;
+}
+
+.titulo2::before,
+.titulo2::after {
+    content: "";
+    height: 5px;
+    background-color: #f39c12;
+    flex: 1;
+}
+
+
+.titulo3{
+    text-align: center;
+    color: rgb(50, 50, 122);
+    margin-top: 2%;
+}
+
+.titulo3{
+   display: flex;
+   text-align: center;
+   color: rgb(50, 50, 122);
+   margin-top: 3%;
+   align-items: center;
+   gap: 2%;
+}
+
+.titulo3::before,
+.titulo3::after {
+    content: "";
+    height: 5px;
+    background-color: #f39c12;
+    flex: 1;
+}
+
+
+.container{
+    display: flex;    
+    justify-content: center;
+    gap: 2%;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.container2{
+    display: flex;    
+    justify-content: center;
+    gap: 2%;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.container3{
+    display: flex;    
+    justify-content: center;
+    gap: 2%;
+    max-width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.pacote{
+    border-radius: 10%;
+    background-color: orange;
+    display: inline-block;
 }
