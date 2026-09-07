@@ -5,7 +5,6 @@
 
 a{
     text-decoration: none;
-    color: white;
 }
 
 body{
@@ -43,24 +42,6 @@ h1,h2,h3,p{
     color: rgb(50, 50, 122);
 }
 
-.card1{
-    text-align: left;
-    min-width: 25%;
-    background-color: white;
-    border: 3px solid white;
-    border-radius: 10px;
-    margin-top:1% ;
-    
-}
-
-.card1 h2{
-    margin-left:3% ;
-    color: rgb(50, 50, 122);
-}
-
-.card1 h3{
-    color: rgb(27, 127, 248);
-}
 
 .card2{
     text-align: left;
@@ -75,26 +56,32 @@ h1,h2,h3,p{
     margin-left: 3%;
 }
 
+.card2 h2{
+    margin-left: 3%;
+}
+
 .confira{
     border-radius: 10%;
-    margin-left: 15%;
-    margin-top: 40%;
+    margin-left: 3%;
     background-color: rgb(63, 186, 63);
     color: white;
     width: 30%;
+    margin-top: 3%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.preço{
-    display: flex;
+.confira h2{
+    font-size: 100%;
 }
+
+
 
 .titulo2{
    display: flex;
    text-align: center;
    color: rgb(50, 50, 122);
-   margin-top: 3%;
+   margin-top: 2%;
    align-items: center;
    gap: 2%;
 }
@@ -111,6 +98,7 @@ h1,h2,h3,p{
    display: flex;
    text-align: center;
    color: rgb(50, 50, 122);
+   margin-top: 3%;
    align-items: center;
    gap: 2%;
 }
@@ -121,15 +109,6 @@ h1,h2,h3,p{
     height: 5px;
     background-color: #f39c12;
     flex: 1;
-}
-
-
-.container{
-    display: flex;    
-    justify-content: center;
-    gap: 2%;
-    max-width: 90%;
-    margin-left: 5%;
 }
 
 .container2{
@@ -145,12 +124,5 @@ h1,h2,h3,p{
     justify-content: center;
     gap: 2%;
     max-width: 90%;
-    margin-top: 3%;
     margin-left: 5%;
-}
-
-.pacote{
-    border-radius: 10%;
-    background-color: orange;
-    display: inline-block;
 }
